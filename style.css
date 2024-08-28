@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Boxs */
+.boxs{
+    display: flex;
+}
+/* Box1 */
+.box1{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: brown;
+}
+.box1 .k1{
+    width: 90px;
+    height: 90px;
+    background: aqua;
+}
+/* Box2 */
+.box2{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: darkviolet;
+}
+.box2 .k1{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: darkgoldenrod;
+}
+.box2 .k2{
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    position: absolute;
+    background: darkgoldenrod;
+}
+.box2 .k3{
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background: darkgoldenrod;
+}
+.box2 .k4{
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    position: absolute;
+    background: darkgoldenrod;
+}
+/* Box3 */
+.box3{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: dodgerblue;
+}
+.box3 .tortb{
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 25px;
+    background: rgb(0, 79, 158);
+}
+.box3 .aylana1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -65px;
+    margin-left: 35px;
+    position: absolute;
+    background: dodgerblue;
+}
+.box3 .aylana2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 48px;
+    position: absolute;
+    background: rgb(0, 79, 158);
+}
+.box3 .aylana3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: -35px;
+    margin-left: 63px;
+    position: absolute;
+    background: gold;
+}
+/* Box4 */
+.box4{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: rgb(116, 0, 165);
+}
+.f1{
+    width: 40px;
+    height: 45px;
+    margin-top: 70px;
+    margin-left: 10px;
+    border-radius: 0 0 20px 20px;
+    background: gold;
+}
+.f2{
+    width: 47px;
+    height: 45px;
+    margin-top: -90px;
+    margin-left: 51px;
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+    background: gold;
+}
+.f3{
+    width: 40px;
+    height: 45px;
+    margin-top: -45px;
+    margin-left: 99px;
+    position: absolute;
+    border-radius: 0 0 20px 20px;
+    background: gold;
+}
+/* Box5 */
+.box5{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: black;
+}
+.box5 .aylana1{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 50%;
+    background: gold;
+}
+.box5 .aylana2{
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: 55px;
+    border-radius: 50% 0 50% 50% ;
+    background: rgb(216, 184, 0);
+}
+.box5 .aylana3{
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    margin-left: 30px;
+    border-radius: 50% 0 50% 50% ;
+    background: gold;
+}
+/* Box6 */
+.box6{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: rgb(255, 50, 50);
+}
+.box6 .ff1{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 100% 0 0 0;
+    background: rgb(0, 180, 180);
+}
+.box6 .ff2{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 0 0 0 100%;
+    background: rgb(255, 255, 172);
+}
+.box6 .ff3{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 70px;
+    border-radius: 0 100% 0 0;
+    background: rgb(253, 253, 104);
+}
+/* Box7 */
+.box7{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: black;
+}
+.box7 .fff1{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 50% 0 50% 0;
+    background: rgb(92, 92, 92);
+}
+.box7 .fff2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 50px;
+    border-radius: 50% 0 50% 0;
+    background: rgb(252, 252, 115);
+}
+.box7 .fff3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 60px;
+    border-radius: 50% 0 50% 0;
+    background: gold;
+}
+/* Box8 */
+.box8{
+    width: 140px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background: dodgerblue;
+}
+.box8 .s1{
+    width: 10px;
+    height: 30px;
+    margin-top: 120px;
+    margin-left: 65px;
+    background: rgb(0, 79, 158);
+}
+.box8 .s2{
+    width: 80px;
+    height: 50px;
+    margin-top: -80px;
+    margin-left: 30px;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    background: rgb(0, 79, 158);
+}
+.box8 .s3{
+    width: 10px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 50px 50px 0 0;
+    margin-top: -120px;
+    position: absolute;
+    background: rgb(0, 79, 158);
+}
+.box8 .s4{
+    width: 10px;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 50px 50px 0 0;
+    margin-top: -120px;
+    position: absolute;
+    background: rgb(0, 79, 158);
+}
+.box8 .s5{
+    width: 10px;
+    height: 40px;
+    margin-left: 53px;
+    border-radius: 50px 50px 0 0;
+    margin-top: -120px;
+    position: absolute;
+    background: rgb(0, 79, 158);
+}
+.box8 .s6{
+    width: 10px;
+    height: 40px;
+    margin-left: 75px;
+    border-radius: 50px 50px 0 0;
+    margin-top: -120px;
+    position: absolute;
+    background: rgb(0, 79, 158);
+}
+.box8 .s7{
+    width: 14px;
+    height: 40px;
+    margin-left: 85.6px;
+    border-radius: 0 0 50px 50px;
+    margin-top: -113px;
+    position: absolute;
+    background: dodgerblue;
+}
+.box8 .s8{
+    width: 12px;
+    height: 40px;
+    margin-left: 63px;
+    border-radius: 0 0 50px 50px;
+    margin-top: -113px;
+    position: absolute;
+    background: dodgerblue;
+}
+.box8 .s9{
+    width: 12px;
+    height: 40px;
+    margin-left: 41px;
+    border-radius: 0 0 50px 50px;
+    margin-top: -113px;
+    position: absolute;
+    background: dodgerblue;
+}
